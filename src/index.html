@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Market</title>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <script defer src="./script.js"></script>
+</head>
+<body>
+  <header id="header">
+    <h1>Mercado Legal</h1>
+    <nav>
+      <a href="./cart/cart.html">Carrinho</a>
+      <a href="index.html">Produtos</a>
+      <a href="#">Sobre</a>
+    </nav>
+  </header>
+  <main>
+    <section id="add-product" class="add-product-container">
+      <input placeholder="Nome" type="text" id="add-name">
+      <input placeholder="Preço" type="number" id="add-price">
+      <input placeholder="Desconto" type="number" id="add-disc">
+      <button onclick="addProduct()">Add Product</button>
+    </section>
+    <div class="product-list-container">
+      <section id="product-section" class="products-list"></section>
+    </div>
+  </main>
+  <footer>
+  </footer>
+</body>
+</html>

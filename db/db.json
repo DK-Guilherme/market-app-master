@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "name": "Repolho",
+      "price": 23,
+      "discount": 3,
+      "date": "2022-02-05",
+      "id": 5
+    },
+    {
+      "name": "Bolo",
+      "price": 50,
+      "discount": 3,
+      "date": "2022-02-01",
+      "id": 6
+    },
+    {
+      "name": "arroz",
+      "price": 20,
+      "discount": 2,
+      "date": "2022-02-01",
+      "id": 7
+    },
+    {
+      "name": "Goiabada",
+      "price": 3,
+      "discount": 0,
+      "date": "2022-02-02",
+      "id": 8
+    },
+    {
+      "name": "Limão",
+      "price": 4,
+      "discount": 0,
+      "date": "2022-02-02",
+      "id": 9
+    },
+    {
+      "name": "iorgute",
+      "price": 6,
+      "discount": 2,
+      "date": "2022-02-02",
+      "id": 10
+    },
+    {
+      "name": "banana",
+      "price": 3,
+      "discount": 0,
+      "date": "2022-02-04",
+      "id": 11
+    }
+  ],
+  "cart": []
+}
